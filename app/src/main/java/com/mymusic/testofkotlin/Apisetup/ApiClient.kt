@@ -5,7 +5,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 public class ApiClient {
-    public var BASE_URL: String ="https://vivekthummarandroid.000webhostapp.com/Testmain/"
+    public var BASE_URL: String ="https://VivekGroup"
     public var retrofit: Retrofit? =null
 
     public fun getApiClient(): Retrofit?{
